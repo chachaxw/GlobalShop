@@ -1,3 +1,2 @@
-# WeYinLiangPin
-
-## code by chacha
+# GlobalShop
+GlobalShop
