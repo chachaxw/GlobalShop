@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="chacha">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>全球特卖</title>
+        <link rel="stylesheet" type="text/css" href="css/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/pagination.css">
+        <link rel="stylesheet" type="text/css" href="css/style.min.css">
+        <script src="js/jquery-2.2.4.min.js"></script>
+        <script type='text/javascript'>
+          (function(m, ei, q, i, a, j, s) {
+              m[a] = m[a] || function() {
+                  (m[a].a = m[a].a || []).push(arguments)
+              };
+              j = ei.createElement(q),
+                  s = ei.getElementsByTagName(q)[0];
+              j.async = true;
+              j.charset = 'UTF-8';
+              j.src = i + '?v=' + new Date().getUTCDate();
+              s.parentNode.insertBefore(j, s);
+          })(window, document, 'script', 'http://static.meiqia.com/dist/meiqia.js', '_MEIQIA');
+          _MEIQIA('entId', 19127);
+            // 在这里开启无按钮模式
+            _MEIQIA('withoutBtn', true);
+        </script>
+        <!--[if IE]>
+		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+	    <![endif]-->
+    </head>
+    <body>
+        <div class="constainer">
+            <!-- 头部区域 -->
+            <header>
+                <div class="header">
+                    <div class="header-top-nav clearfix">
+                        <ul class="fl-right">
+                            <li class="user">
+                                <a href="" class="trangle username">lixiangyun</a>
+                                <div class="user-info clearfix">
+                                    <span class="user-avatar">
+                                        <img src="images/icons/avatar_img.png" alt="user-avatar">
+                                    </span>
+                                    <div class="fl-right">
+                                        <p>可用金额</p>
+                                        <span style="color: #ff3185;font-size: 20px">0.00元</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mobile-qrcode">
+                                <a href="" class="trangle">手机版</a>
+                                <div class="qrcode-img">
+                                    <img src="images/icons/qrcode.png" alt="">
+                                </div>
+                            </li>
+                            <li><a href="">官方贴吧</a></li>
+                            <li><a href="">首页</a></li>
+                            <li><a href="">在线客服</a></li>
+                            <li><a href="help.html">帮助中心</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-search clearfix">
+                    <div class="header-logo fl-left">
+                        <a href="index.html"><img src="images/logo.jpg" alt="logo"></a>
+                    </div>
+                    <form class="search-input clearfix" id="autocomplete">
+                        <button class="search-btn fl-right" type="submit">
+                            <span class="icon icon-search"></span>
+                            搜实惠
+                        </button>
+                        <div class="tag-list">
+                            <ul>
+                                <li><a href="">hello</a></li>
+                                <li><a href="">world</a></li>
+                                <li><a href="">hay chacha</a></li>
+                            </ul>
+                        </div>
+                    </form>
+                    <div class="ad-area fl-right">
+                        <a href="">
+                            <img src="images/ad_img.jpg" alt="ad">
+                        </a>
+                    </div>
+                </div>
+                <nav class="header-main-nav">
+                    <ul class="nav-content clearfix">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="discount.html">精品折扣</a></li>
+                        <li><a href="newitems.html">新品首发</a></li>
+                        <li><a href="hotsale.html">品牌热卖</a></li>
+                        <li><a href="seckill.html">限时秒杀</a></li>
+                        <li><a href="buy.html">值得买</a></li>
+                        <li><a href="global.html">全球尖货</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- 主内容区域 -->
+            <div class="content">
+                <div class="navigation-info">
+                    <a href="" style="font-size:18px;">女装</a>&nbsp;>
+                    <a href="">MANGO女装专场</a>&nbsp;>
+                    <a href="">女士长袖休闲衬衫</a>
+                </div>
+                <div class="item-info-content clearfix">
+                    <div class="left-img-pane fl-left">
+                        <div class="item-detail-img">
+                            <div class="view-img">
+                              <img src="images/01_mid.jpg" rel="images/01.jpg" alt="">
+                            </div>
+                            <!-- <div class="view-big-img" id="view-big-img"></div> -->
+                            <span class="icon icon-search" id="view-icon"></span>
+                        </div>
+                        <div class="item-detail-thumbnail">
+                            <ul class="clearfix">
+                                <li class="active">
+                                    <img src="images/01_mid.jpg" mid="images/01_mid.jpg" big="images/01.jpg">
+                                </li>
+                                <li>
+                                    <img src="images/02_mid.jpg" mid="images/02_mid.jpg" big="images/02.jpg">
+                                </li>
+                                <li>
+                                    <img src="images/03_mid.jpg" mid="images/03_mid.jpg" big="images/03.jpg">
+                                </li>
+                                <li>
+                                    <img src="images/04_mid.jpg" mid="images/04_mid.jpg"  big="images/04.jpg">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="share-collection">
+                            <a href=""><span class="icon icon-share"></span>分享</a>
+                            <a href="" style="margin-left: 30px;"><span class="icon icon-heart"></span>收藏</a>
+                        </div>
+                    </div>
+                    <div class="center-info-pane">
+                        <h5 class="pink-color">MANGO</h5>
+                        <div>MANGO女士长袖休闲衬衫4102005</div>
+                        <div class="product-detail-info">
+                            <span class="info-title">价格</span>
+                            <span class="pink-color">
+                               $ <b style="font-size:24px;font-weight: 200">69.00</b>
+                            </span>
+                            <span class="detail-invalid-price">$169.00</span>
+                        </div>
+                        <div class="product-detail-info">
+                            <span class="info-title">用户评价</span>
+                            <span class="evaluation-star">
+                                <ul class="star-list clearfix">
+                                    <li><span class="icon icon-star"></span></li>
+                                    <li><span class="icon icon-star"></span></li>
+                                    <li><span class="icon icon-star"></span></li>
+                                    <li><span class="icon icon-star"></span></li>
+                                    <li><span class="icon icon-star"></span></li>
+                                </ul>
+                            </span>
+                        </div>
+                        <div class="product-detail-info" style="color: #aaa;">
+                            <span class="info-title">运费</span>
+                            <span>广东深圳</span> 至 <span>广州白云区</span>
+                        </div>
+                        <div class="product-detail-info">
+                            <span class="info-title">尺码</span>
+                            <ul class="clearfix size">
+                                <li class="active">165/84A</li>
+                                <li>170/88A</li>
+                                <li>175/92A</li>
+                            </ul>
+                        </div>
+                        <div class="product-detail-info">
+                            <span class="info-title">颜色</span>
+                            <ul class="clearfix color">
+                                <li class="active">
+                                    <img src="images/thumbnail_img1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/thumbnail_img2.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/thumbnail_img3.png" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="product-detail-info">
+                            <input type="number" value="0" min="0" max="1000" class="product-num">
+                            <a href="jumpto.html" class="buy-btn bg-pink">立即购买</a>
+                            <a href="" class="buy-btn bg-black">加入购物车</a>
+                        </div>
+                        <div class="product-detail-info other-info">
+                            <span><span class="icon icon-airplane bg-pink"></span>按时发货</span>
+                            <span><span class="icon icon-clock bg-pink"></span>按时发货</span>
+                        </div>
+                    </div>
+                    <div class="right-shop-pane fl-right">
+                        <div class="shop-logo">
+                            <img src="images/brand_img12.png" alt="">
+                        </div>
+                        <div class="shop-info">
+                            <div class="shop-info-name">MONGO</div>
+                            <div class="shop-info-contact">
+                                <span class="icon icon-contact"></span>
+                                <span onclick="_MEIQIA._SHOWPANEL()">客服</span>
+                            </div>
+                        </div>
+                        <div class="shop-btn clearfix">
+                            <a href="" style="border-right: 1px #fff dashed">店铺</a>
+                            <a href="">收藏</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-detail-content">
+                    <h2>
+                        <span class="icon icon-diamond"></span>
+                        <span class="pink-color">商品详情</span>
+                        INFO
+                    </h2>
+                    <div class="product-basic-info">
+                        <ul class="clearfix">
+                            <li>
+                                <div><span>品牌：</span>MANGO</div>
+                                <div><span>领型：</span>VI领</div>
+                                <div><span>上市时间：</span>2016年</div>
+                            </li>
+                            <li>
+                                <div><span>货号：</span>41020055</div>
+                                <div><span>袖型：</span>长袖</div>
+                            </li>
+                            <li>
+                                <div><span>面料成分：</span>100%聚酯纤维</div>
+                                <div><span>衣长：</span>常规</div>
+                            </li>
+                            <li>
+                                <div><span>面料：</span>涤纶</div>
+                                <div><span>厚度：</span>薄</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <h2>
+                        <span class="icon icon-diamond"></span>
+                        <span class="pink-color">商品尺码</span>
+                        SIZE
+                    </h2>
+                    <div class="product-size-info">
+                        <p>
+                            <b>TIPS:</b><br>
+                            1.选购时，请综合参考尺码表中的各项参数，有助于您选择到更合适的尺码。<br>
+                            2.（只适用于服装）平铺测量自己的合身衣服尺寸作参考，对比选购更准确！<br>
+                            3.请放心挑选尺码，中文搜索全球特卖7天退货无忧替您保驾护航。
+                        </p>
+                        <p>
+                            尺码对照表：<br>
+                            <img src="images/size_info1.png" alt="">
+                        </p>
+                        <p>
+                            服装测量示意图：<br>
+                            <img src="images/size_info2.png" alt="">
+                            注：测量误差为0.5CM，具体尺寸以实物为准
+                        </p>
+                    </div>
+                    <h2>
+                        <span class="icon icon-diamond"></span>
+                        <span class="pink-color">商品展示</span>
+                        IMAGE
+                    </h2>
+                    <div class="product-img-info">
+                        <img src="images/item_detail_img1.png" alt="">
+                        <img src="images/item_detail_img2.png" alt="">
+                        <img src="images/item_detail_img3.png" alt="">
+                        <img src="images/item_detail_img4.png" alt="">
+                        <img src="images/item_detail_img5.png" alt="">
+                    </div>
+                    <div class="product-recommend">
+                        <h3>商品推荐</h3>
+                        <div class="product-recommend-info">关注了该商品的用户还关注了</div>
+                        <div class="product-list">
+                            <ul>
+                                <li class="list-item">
+                                    <a href="">
+                                        <div class="list-item-img">
+                                            <img src="images/item_img1.jpg" alt="product">
+                                        </div>
+                                        <div class="list-item-title">
+                                            银生YESON 【唯品专供】至凝8-8.5mm海水珍珠耳勾 18K金
+                                        </div>
+                                        <div class="list-item-info">
+                                            <span class="item-price">
+                                                $: <span class="valid-price">399</span>
+                                                <span class="invalid-price">599</span>
+                                            </span>
+                                            <span class="item-from fl-right">亚马逊</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="">
+                                        <div class="list-item-img">
+                                            <img src="images/item_img2.jpg" alt="product">
+                                        </div>
+                                        <div class="list-item-title">
+                                            银生YESON 【唯品专供】至凝8-8.5mm海水珍珠耳勾 18K金
+                                        </div>
+                                        <div class="list-item-info">
+                                            <span class="item-price">
+                                                $: <span class="valid-price ">399</span>
+                                                <span class="invalid-price">
+                                                    599
+                                                </span>
+                                            </span>
+                                            <span class="item-from fl-right">亚马逊</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="">
+                                        <div class="list-item-img">
+                                            <img src="images/item_img13.png" alt="product">
+                                        </div>
+                                        <div class="list-item-title">
+                                            银生YESON 【唯品专供】至凝8-8.5mm海水珍珠耳勾 18K金
+                                        </div>
+                                        <div class="list-item-info">
+                                            <span class="item-price">
+                                                $: <span class="valid-price">399</span>
+                                                <span class="invalid-price">599</span>
+                                            </span>
+                                            <span class="item-from fl-right">亚马逊</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="">
+                                        <div class="list-item-img">
+                                            <img src="images/item_img14.png" alt="product">
+                                        </div>
+                                        <div class="list-item-title">
+                                            银生YESON 【唯品专供】至凝8-8.5mm海水珍珠耳勾 18K金
+                                        </div>
+                                        <div class="list-item-info">
+                                            <span class="item-price">
+                                                $: <span class="valid-price ">399</span>
+                                                <span class="invalid-price">
+                                                    599
+                                                </span>
+                                            </span>
+                                            <span class="item-from fl-right">亚马逊</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="">
+                                        <div class="list-item-img">
+                                            <img src="images/item_img15.png" alt="product">
+                                        </div>
+                                        <div class="list-item-title">
+                                            银生YESON 【唯品专供】至凝8-8.5mm海水珍珠耳勾 18K金
+                                        </div>
+                                        <div class="list-item-info">
+                                            <span class="item-price">
+                                                $: <span class="valid-price">399</span>
+                                                <span class="invalid-price">599</span>
+                                            </span>
+                                            <span class="item-from fl-right">亚马逊</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="left-and-right">
+                            <span class="icon icon-oval-left"></span>
+                            <span class="icon icon-oval-right"></span>
+                        </div>
+                    </div>
+                    <div class="product-service">
+                        <h3>商品咨询</h3>
+                        <p style="margin-top: 40px;">
+                            <b>购买前如有问题，请向中文搜索引擎全球特卖资讯。</b>
+                            <a href="javascript:void(0)" class="contact-custom-service pink-color" onclick="_MEIQIA._SHOWPANEL()">
+                                <span class="icon icon-service"></span>
+                                联系客服
+                            </a>
+                        </p>
+                        <div class="q-and-a">
+                            <span class="icon-question bg-black">Q</span>
+                            <b>商品都是正品吗?</b>
+                        </div>
+                        <div class="q-and-a">
+                            <span class="icon-anwser fl-left">A</span>
+                            <p>
+                                请您放心，中文搜索全球特卖上所售卖的商品均来源于各大国外网站并经过品牌授权，确保正。
+                            </p>
+                        </div>
+                        <div class="q-and-a">
+                            <span class="icon-question bg-black">Q</span>
+                            <b>尺码表上的尺码标准吗？</b>
+                        </div>
+                        <div class="q-and-a">
+                            <span class="icon-anwser fl-left">A</span>
+                            <p>
+                                中文搜索全球特卖所售卖商品尺寸均为人工测量，可能会存在1-2cm的正常误差范围。
+                            </p>
+                        </div>
+                        <div class="q-and-a">
+                            <span class="icon-question bg-black">Q</span>
+                            <b>图片颜色和实物颜色是否相同？</b>
+                        </div>
+                        <div class="q-and-a">
+                            <span class="icon-anwser fl-left">A</span>
+                            <p>
+                                中文搜索全球特卖所有商品均来源于国外各大品牌网站，商品也都是采用专业拍摄，力求讲最真实的信息传达至你的视线。但由于各人显示器不同，可能导致实物与图片存在色差，最终颜色以实物为准。
+                            </p>
+                        </div>
+                        <div class="q-and-a">
+                            <span class="icon-question bg-black">Q</span>
+                            <b>为什么我收到的商品包装和图片显示不一致？</b>
+                        </div>
+                        <div class="q-and-a">
+                            <span class="icon-anwser fl-left">A</span>
+                            <p>
+                                由于部分商品生产批次不一，您收到的货品的包装有可能与网站上图片不完全一致，但中文搜索全球特卖会保证所售商品均为正品，商品包装请以实物为准。
+                            </p>
+                        </div>
+                        <div class="q-and-a">
+                            <span class="icon-question bg-black">Q</span>
+                            <b>如何退货？</b>
+                        </div>
+                        <div class="q-and-a">
+                            <span class="icon-anwser fl-left">A</span>
+                            <p>
+                                在您签收商品之日起的7天之内，中文搜索全球特卖为您提供七天无理由放心退服务，但以下情形将不能退货：1、非中文搜索全球特卖销售的商品，或有明显使用痕迹影响二次销售的商品；2、法律明确规定不适用七天无理由退货的商品；3、基于安全及健康的考虑，已拆封的食品、药品、保健品、化妆品、贴身用品等；4、已经激活的手机、电脑、数码产品等；5、已在线交付的充值类商品；6、未经授权的维修、误用、碰撞、疏忽、滥用、进液、事故、改动、不正确的安装所造成的商品质量问题，或撕毁、涂改标贴、机器序号、防伪标记；7、无法提供商品的发票（如已索要发票）、保修卡等三包凭证或者三包凭证信息与商品不符及被涂改的；8、礼包或套装中的商品不可以部分退换货。
+                            </p>
+                        </div>
+                        <div class="return-flow-content">
+                            <h4 style="margin-left: 60px">退货流程如下：</h4>
+                            <div class="return-flow">
+                                <span>1. 进入我的订单</span>
+                                <span class="icon icon-right-gray"></span>
+                                <span>2 提交退货申请</span>
+                                <span class="icon icon-right-gray"></span>
+                                <span>3. 审核通过</span>
+                                <span class="icon icon-right-gray"></span>
+                                <span>4. 邮寄商品至中文搜索全球特卖</span>
+                                <span class="icon icon-right-gray"></span>
+                                <span>5. 退款并补贴10元运费</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-comment">
+                        <div class="overall-evaluation">
+                            <h3>商品评价</h3>
+                            <div class="overall-info">
+                                <div class="star-num">
+                                    <span style="vertical-align:super;margin-right: 12px;">
+                                        整体评价
+                                    </span>
+                                    <b class="pink-color" style="font-size: 36px;">5</b>
+                                    <ul class="star-list clearfix">
+                                        <li><span class="icon icon-star"></span></li>
+                                        <li><span class="icon icon-star"></span></li>
+                                        <li><span class="icon icon-star"></span></li>
+                                        <li><span class="icon icon-star"></span></li>
+                                        <li><span class="icon icon-star"></span></li>
+                                    </ul>
+                                </div>
+                                <div class="tag-num">
+                                    <ul class="clearfix">
+                                        <li>好看(1)</li>
+                                        <li>舒服(12)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="all-evaluation">
+                            <div class="evaluation-tab">
+                                <ul class="clearfix">
+                                    <li class="active">全部评价</li>
+                                    <li>有图(0)</li>
+                                </ul>
+                            </div>
+                            <div class="evaluation-list">
+                                <ul>
+                                    <li class="evaluation-item">
+                                        <div class="visitor-avatar fl-left">
+                                            <span class="fl-right"><img src="images/icons/avatar_img.png" alt=""></span>
+                                        </div>
+                                        <div class="visitor-evaluation">
+                                            <div class="visitor-evaluation-content fl-left">
+                                                <div>
+                                                    <span style="vertical-align:super;">评分:</span>
+                                                    <ul class="clearfix star-list">
+                                                        <li><span class="icon icon-star"></span></li>
+                                                        <li><span class="icon icon-star"></span></li>
+                                                        <li><span class="icon icon-star"></span></li>
+                                                        <li><span class="icon icon-star"></span></li>
+                                                        <li><span class="icon icon-star"></span></li>
+                                                    </ul>
+                                                    <span class="evaluation-tag">好看</span>
+                                                </div>
+                                                <p>大小合适，朋友说穿上后有气质，美美哒！</p>
+                                                <div class="evaluation-date">2016-06-05 10:57:10</div>
+                                            </div>
+                                            <div class="visitor-evaluation-like">
+                                                <span class="icon icon-like"></span>
+                                                <span>有用3</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="evaluation-item">
+                                        <div class="visitor-avatar fl-left">
+                                            <span class="fl-right"><img src="images/icons/avatar_img.png" alt=""></span>
+                                        </div>
+                                        <div class="visitor-evaluation">
+                                            <div class="visitor-evaluation-content fl-left">
+                                                <div>
+                                                    <span style="vertical-align:super;">评分:</span>
+                                                    <ul class="clearfix star-list">
+                                                        <li><span class="icon icon-star"></span></li>
+                                                        <li><span class="icon icon-star"></span></li>
+                                                        <li><span class="icon icon-star"></span></li>
+                                                        <li><span class="icon icon-star"></span></li>
+                                                        <li><span class="icon icon-star"></span></li>
+                                                    </ul>
+                                                    <span class="evaluation-tag">好看</span>
+                                                </div>
+                                                <p>大小合适，朋友说穿上后有气质，美美哒！</p>
+                                                <div class="evaluation-date">2016-06-05 10:57:10</div>
+                                            </div>
+                                            <div class="visitor-evaluation-like">
+                                                <span class="icon icon-like"></span>
+                                                <span>有用3</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="evaluation-item">
+                                        <div class="visitor-avatar fl-left">
+                                            <span class="fl-right"><img src="images/icons/avatar_img.png" alt=""></span>
+                                        </div>
+                                        <div class="visitor-evaluation">
+                                            <div class="visitor-evaluation-content fl-left">
+                                                <div>
+                                                    <span style="vertical-align:super;">评分:</span>
+                                                    <ul class="clearfix star-list">
+                                                        <li><span class="icon icon-star"></span></li>
+                                                        <li><span class="icon icon-star"></span></li>
+                                                        <li><span class="icon icon-star"></span></li>
+                                                        <li><span class="icon icon-star"></span></li>
+                                                        <li><span class="icon icon-star"></span></li>
+                                                    </ul>
+                                                    <span class="evaluation-tag">好看</span>
+                                                </div>
+                                                <p>大小合适，朋友说穿上后有气质，美美哒！</p>
+                                                <div class="evaluation-date">2016-06-05 10:57:10</div>
+                                            </div>
+                                            <div class="visitor-evaluation-like">
+                                                <span class="icon icon-like"></span>
+                                                <span>有用3</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="evaluation-item">
+                                        <div class="visitor-avatar fl-left">
+                                            <span class="fl-right"><img src="images/icons/avatar_img.png" alt=""></span>
+                                        </div>
+                                        <div class="visitor-evaluation">
+                                            <div class="visitor-evaluation-content fl-left">
+                                                <div>
+                                                    <span style="vertical-align:super;">评分:</span>
+                                                    <ul class="clearfix star-list">
+                                                        <li><span class="icon icon-star"></span></li>
+                                                        <li><span class="icon icon-star"></span></li>
+                                                        <li><span class="icon icon-star"></span></li>
+                                                        <li><span class="icon icon-star"></span></li>
+                                                        <li><span class="icon icon-star"></span></li>
+                                                    </ul>
+                                                    <span class="evaluation-tag">好看</span>
+                                                </div>
+                                                <p>大小合适，朋友说穿上后有气质，美美哒！</p>
+                                                <div class="evaluation-date">2016-06-05 10:57:10</div>
+                                            </div>
+                                            <div class="visitor-evaluation-like">
+                                                <span class="icon icon-like"></span>
+                                                <span>有用3</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="pagination-product" id="pagination-product"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="back-to-top">
+                <ul>
+                    <li>
+                        <span class="icon icon-qrcode"></span>
+                        <span class="hover-qrcode">
+                            <img src="images/icons/qrcode.png" alt="">
+                        </span>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)" onclick="_MEIQIA._SHOWPANEL()">
+                        <span class="icon icon-service"></span>
+                      </a>
+                    </li>
+                    <li><span class="icon icon-up" id="goBack"></span></li>
+                </ul>
+            </div>
+            <!-- 页脚区域 -->
+            <footer class="footer">
+                <div class="foot-bar">
+                    <ul class="clearfix">
+                        <li><span class="footer-icon icon-gloab"></span>正品原汁原味</li>
+                        <li><span class="footer-icon icon-list"></span>国检督查入仓</li>
+                        <li><span class="footer-icon icon-cart"></span>快速清关报告</li>
+                        <li><span class="footer-icon icon-car"></span>国内物流配送</li>
+                        <li><span class="footer-icon icon-smile"></span>用户满意收货</li>
+                    </ul>
+                </div>
+                <div class="foot-content">
+                    <div class="web-nav clearfix">
+                        <dl>
+                            <dt>关于我们</dt>
+                            <dd><a href="#">全球特卖特权</a></dd>
+                            <dd><a href="#">用户协议</a></dd>
+                            <dd><a href="#">隐私声明</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>帮助中心</dt>
+                            <dd><a href="#">怎么查看购物订单</a></dd>
+                            <dd><a href="#">实名认证</a></dd>
+                            <dd><a href="#">问题反馈</a></dd>
+                            <dd><a href="#">联系我们</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>商家合作</dt>
+                            <dd><a href="#">合作伙伴</a></dd>
+                            <dd><a href="#">商务合作</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>关注我们</dt>
+                            <dd><a href="#"><span class="footer-icon icon-wechat"></span>官方微信</a></dd>
+                            <dd><a href="#"><span class="footer-icon icon-sina"></span>官方微博</a></dd>
+                        </dl>
+                        <dl>
+                            <div class="qrcode">
+                                <h3><span class="footer-icon icon-logo"></span>手机版全球特卖</h3>
+                                <span>
+                                    <img src="images/icons/qrcode.png">
+                                </span>
+                            </div>
+                        </dl>
+                    </div>
+                </div>
+                <div class="right-info">Copyright ©2015mgllift | 粤ICP备15014238号-1 深圳麦哲伦海淘有限公司 版权所有</div>
+            </footer>
+        </div>
+        <script src="js/jquery.imagezoom.min.js"></script>
+        <script src="js/autocomplete.js"></script>
+        <script src="js/itemdetail.js"></script>
+    </body>
+</html>
