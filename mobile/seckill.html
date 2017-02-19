@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="chacha">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,user-scalable=yes,minimum-scale=1.0,maximum-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <meta content="yes" name="apple-touch-fullscreen">
+        <meta content="telephone=no,email=no" name="format-detection">
+        <meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes">
+        <title>全球特卖</title>
+        <link rel="stylesheet" type="text/css" href="css/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/iconfont.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.min.css">
+        <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+        <script src="js/jquery-2.2.4.min.js"></script>
+        <script src="js/swiper.jquery.min.js"></script>
+        <script type="text/javascript">
+            $(function(){
+              var x=$(".nav-menu li.active").offset().left;
+              var clientWidth=document.body.clientWidth;
+              $(".nav-menu").scrollLeft(x-100);
+            });
+        </script>
+    </head>
+    <body>
+
+       <!-- 侧栏分类区域 -->
+        <div class="mask" data-toggle="false">
+            <div class="side-slide-bar">
+                <span class="close-btn fl-right"><i class="iconfont icon-qingchu01"></i></span>
+                <ul class="side-category">
+                      <li class="active">
+                          <a href="index.html">
+                              <i class="iconfont icon-shouye01"></i>首页
+                              <i class="iconfont icon-xiangyoujiantou01 fl-right"></i>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="cloth.html">
+                              <i class="iconfont icon-pinzhinvzhuang01"></i>品牌女装
+                              <i class="iconfont icon-xiangyoujiantou01 fl-right"></i>
+                          </a></li>
+                      <li>
+                          <a href="cloth.html">
+                              <i class="iconfont icon-jingpinnanzhuang01"></i>潮流男装
+                              <i class="iconfont icon-xiangyoujiantou01 fl-right"></i>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="cloth.html">
+                              <i class="iconfont icon-shishangnvxie01"></i>时尚女鞋
+                              <i class="iconfont icon-xiangyoujiantou01 fl-right"></i>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="cloth.html">
+                              <i class="iconfont icon-jingpinnanxie01"></i>精品男鞋
+                              <i class="iconfont icon-xiangyoujiantou01 fl-right"></i>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="cloth.html">
+                              <i class="iconfont icon-meizhuang01"></i>美妆个护
+                              <i class="iconfont icon-xiangyoujiantou01 fl-right"></i>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="cloth.html">
+                              <i class="iconfont icon-xiangbao01"></i>时尚箱包
+                              <i class="iconfont icon-xiangyoujiantou01 fl-right"></i>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="cloth.html">
+                              <i class="iconfont icon-gerenhuli01"></i>个人洗护
+                              <i class="iconfont icon-xiangyoujiantou01 fl-right"></i>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="cloth.html">
+                              <i class="iconfont icon-muyingyongpin01"></i>母婴用品
+                              <i class="iconfont icon-xiangyoujiantou01 fl-right"></i>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="cloth.html">
+                              <i class="iconfont icon-zhubaoshoushi01"></i>珠宝首饰
+                              <i class="iconfont icon-xiangyoujiantou01 fl-right"></i>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="cloth.html">
+                              <i class="iconfont icon-shuma01"></i>家电数码
+                              <i class="iconfont icon-xiangyoujiantou01 fl-right"></i>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="cloth.html">
+                              <i class="iconfont icon-jujiayongpin01"></i>居家用品
+                              <i class="iconfont icon-xiangyoujiantou01 fl-right"></i>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="cloth.html">
+                              <i class="iconfont icon-meishi01"></i>美食专区
+                              <i class="iconfont icon-xiangyoujiantou01 fl-right"></i>
+                          </a>
+                      </li>
+                  </ul>
+                <h3>推荐商城</h3>
+                <ul class="recommand-shop-list clearfix">
+                    <li><a href=""><img src="images/shop_img1.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_img2.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_img3.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_img4.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_img5.png" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_img6.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_img7.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_img8.jpg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <!-- 头部区域 -->
+            <header class="header clearfix">
+                <div class="sort-btn fl-left" id="sort-btn">
+                    <i class="iconfont icon-fenlei01"></i>
+                </div>
+                <div class="sort-btn fl-right">
+                    <i class="iconfont icon-erweima01"></i>
+                </div>
+                <div class="search-area">
+                    <a href="search.html">
+                        <span class="search-input">搜索商品</span>
+                        <input class="icon-area icon-search fl-right" type="button"></input>
+                    </a>
+                </div>
+            </header>
+            <nav class="nav-menu">
+                <ul class="clearfix">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="discount.html">精品折扣</a></li>
+                    <li><a href="newitem.html">新品首发</a></li>
+                    <li><a href="hotsale.html">品牌热卖</a></li>
+                    <li class="active"><a href="seckill.html">限时秒杀</a></li>
+                    <li><a href="buy.html">值得买</a></li>
+                    <li><a href="global.html">全球尖货</a></li>
+                </ul>
+            </nav>
+
+            <!-- 主内容区域 -->
+            <div class="content">
+                <div class="swiper-container">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="searchresult.html"><img src="images/seckill_img.png" alt="" width="100%"></a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="searchresult.html"><img src="images/seckill_img.png" alt="" width="100%"></a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="searchresult.html"><img src="images/seckill_img.png" alt="" width="100%"></a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="searchresult.html"><img src="images/seckill_img.png" alt="" width="100%"></a>
+                        </li>
+                    </ul>
+                    <ul class="swiper-pagination"></ul>
+                </div>
+                <div class="hot-sale-list" id="wrapper">
+                    <ul>
+                        <li>
+                            <a href="nana.html">
+                                <div class="discount-img">
+                                    <img src="images/hot_item1.png" alt="">
+                                    <div class="discount-info">
+                                       满339减50，上不封顶。
+                                    </div>
+                                </div>
+                                <div class="discount-title">
+                                    <div class="text-overflow">
+                                        <span class="pink-color">1.8折起</span>
+                                        零度程，女装专场
+                                    </div>
+                                    <div class="fl-right">
+                                        <span class="fl-right time-count">
+                                            剩余
+                                            <span class="day"></span>天
+                                            <span class="hour"></span>小时
+                                            <span class="minute"></span>分
+                                            <span class="second"></span>秒
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="nana.html">
+                                <div class="discount-img">
+                                    <img src="images/hot_item2.png" alt="">
+                                    <div class="discount-info">
+                                       满339减50，上不封顶。
+                                    </div>
+                                </div>
+                                <div class="discount-title">
+                                    <div class="text-overflow">
+                                        <span class="pink-color">1.8折起</span>
+                                        零度程，女装专场
+                                    </div>
+                                    <div class="fl-right">
+                                        <span class="fl-right time-count">
+                                            剩余
+                                            <span class="day"></span>天
+                                            <span class="hour"></span>小时
+                                            <span class="minute"></span>分
+                                            <span class="second"></span>秒
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="nana.html">
+                                <div class="discount-img">
+                                    <img src="images/hot_item3.png" alt="">
+                                    <div class="discount-info">
+                                       满339减50，上不封顶。
+                                    </div>
+                                </div>
+                                <div class="discount-title">
+                                    <div class="text-overflow">
+                                        <span class="pink-color">1.8折起</span>
+                                        零度程，女装专场
+                                    </div>
+                                    <div class="fl-right">
+                                        <span class="fl-right time-count">
+                                            剩余
+                                            <span class="day"></span>天
+                                            <span class="hour"></span>小时
+                                            <span class="minute"></span>分
+                                            <span class="second"></span>秒
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="loading" >
+                        <span class="icon-load"></span>
+                        正在加载...
+		                </div>
+                </div>
+            </div>
+
+            <div class="back-to-top">
+                <ul>
+                    <li><a href="index.html"><i class="iconfont icon-shouye01"></i></a></li>
+                    <li><i class="iconfont icon-kefu01"></i></li>
+                    <li id="goBack"><i class="iconfont icon-fanhuidingbu01"></i></li>
+                </ul>
+            </div>
+
+            <!-- nav-bar区域 -->
+            <footer class="footer-nav-bar">
+                <ul class="clearfix">
+                    <li class="active">
+                        <a href="index.html">
+                            <i class="iconfont icon-shouye01"></i>
+                            <p>首页</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="global.html">
+                            <i class="iconfont icon-quanqiujianhuo01"></i>
+                            <p>全球尖货</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="iconfont icon-gouwuche01"></i>
+                            <p>购物车</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="iconfont icon-wode01"></i>
+                            <p>我的</p>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+        <script src="js/countdown.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/swiperslide.js"></script>
+        <script type="text/javascript">
+            $(function(){
+              // 下滑到底部加载内容
+              $(window).scroll(function() {
+                var dataItem = '<li>' +
+                    '<a href="nana.html">' +
+                      '<div class="discount-img">' +
+                        '<img src="images/hot_item2.png" alt="">' +
+                        '<div class="discount-info">满339减50，上不封顶。</div>' +
+                      '</div>' +
+                      '<div class="discount-title">' +
+                        '<div class="text-overflow">' +
+                            '<span class="pink-color">1.8折起</span>零度程，女装专场' +
+                        '</div>' +
+                        '<div class="fl-right">' +
+                            '<span class="fl-right time-count">剩余' +
+                                '<span class="day"></span>天' +
+                                '<span class="hour"></span>小时' +
+                                '<span class="minute"></span>分' +
+                                '<span class="second"></span>秒' +
+                            '</span>' +
+                        '</div>' +
+                      '</div>' +
+                    '</a></li>';
+                var data = [];
+                for(var i = 0; i < 2; i++) {
+                  data.push(dataItem);
+                }
+                // console.log("滚动条到顶部的垂直高度: "+$(document).scrollTop());
+                // console.log("页面的文档高度 ："+$(document).height());
+                // console.log('浏览器的高度：'+$(window).height());
+                loadData('.hot-sale-list ul',data);
+                countDown('2016/06/30 12:00:00', '.time-count');
+              });
+            });
+        </script>
+    </body>
+</html>
